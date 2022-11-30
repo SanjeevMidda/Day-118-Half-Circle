@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 213, 213);
+}
+
+.halfCircle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50% 50% 0px 0px;
+    border: 1px solid black;
+}
+
+h3{
+    position: absolute;
+}
+
+.one{
+    left:100px;
+}
+
+.two{
+    right:100px;
+}
+
+.three{
+    top:100px;
+}
+
+.four{
+    bottom:100px;
+}
